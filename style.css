@@ -60,3 +60,5 @@ body.open .burger {
     height: 100%;
     opacity: 0.6;
 }
+
+.button > img { display: none; }
