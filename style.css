@@ -1,3 +1,14 @@
 body {
     background: #2c2c32;
 }
+
+button {
+    border: 0;
+    padding: 0;
+    background: transparent;
+    cursor: pointer;
+    line-height: 1;
+    color: inherit;
+    font-family: "Euclid Circular A";
+    font-size: 20px;
+}
