@@ -73,3 +73,10 @@ body.open .burger {
         opacity: 1;
     }
 }
+
+.dropdown {
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
