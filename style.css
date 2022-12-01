@@ -103,3 +103,14 @@ body.open .burger {
         left: 0;
     }
 }
+
+@media (width >= 500px) {
+    .dropdowns {
+        position: static;
+        flex-direction: row;
+        justify-content: flex-start;
+        background: transparent;
+        opacity: 1;
+        visibility: visible;
+    }
+}
