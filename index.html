@@ -9,6 +9,25 @@
   <title>Nelly's Kitchen</title>
 </head>
 <body>
-  
+  <nav class="navbar">
+    <button onclick="toggleMenu()" class="burger"></button>
+    <button class="button">Home</button>
+    <div class="dropdowns">
+      <div class="dropdown">
+        <button class="button">Services
+          <img src="">
+        </button>
+        <div class="dropdown-menu">
+          <button>UI/UX Consultancy</button>
+          <button>Website Development</button>
+          <button>SEO Advice</button>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <script>
+    const toggleMenu = () =>
+      document.body.classList.toggle('open');
+  </script>
 </body>
 </html>
