@@ -162,3 +162,7 @@ body.open .burger {
         opacity: 1;
     }
 }
+
+.dropdown-menu > button:hover {
+    opacity: 1;
+}
