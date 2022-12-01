@@ -142,3 +142,8 @@ body.open .burger {
     visibility: visible;
     translate: 0 0;
 }
+
+.dropdown-menu {
+    display: grid;
+    margin-bottom: 28px;
+}
