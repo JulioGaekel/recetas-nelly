@@ -137,3 +137,8 @@ body.open .burger {
     transition: 0.3s;
 }
 
+.dropdown:hover .dropdown-menu {
+    opacity: 1;
+    visibility: visible;
+    translate: 0 0;
+}
