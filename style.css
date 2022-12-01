@@ -121,3 +121,18 @@ body.open .burger {
         flex-direction: row;
     }
 }
+
+.dropdown-menu {
+    position: absolute;
+    top: 72px;
+    left: 0;
+    width: 180px;
+    padding: 6px 24px 10px;
+    margin-bottom: 0;
+    place-items: start;
+    background: #19191c;
+    opacity: 0;
+    visibility: hidden;
+    translate: 0 24px;
+    transition: 0.3s;
+}
