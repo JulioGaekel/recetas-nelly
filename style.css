@@ -95,3 +95,11 @@ body.open .burger {
     transition-property: opacity, visibility;
     transition-duration: 0.3s;
 }
+
+@media (width < 500px) {
+    body.open .dropdowns {
+        opacity: 1;
+        visibility: visible;
+        left: 0;
+    }
+}
