@@ -114,3 +114,10 @@ body.open .burger {
         visibility: visible;
     }
 }
+
+@media ( width >= 500px) {
+    .dropdown {
+        height: 100%;
+        flex-direction: row;
+    }
+}
