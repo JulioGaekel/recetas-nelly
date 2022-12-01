@@ -51,3 +51,12 @@ body.open .burger {
 @media (width >= 500px) {
     .burger { display: none; }
 }
+
+.button {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    padding: 0 24px;
+    height: 100%;
+    opacity: 0.6;
+}
