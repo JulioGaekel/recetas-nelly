@@ -16,3 +16,9 @@ button {
 @media (width >= 500px) {
     button { font-size: 16px; }
 }
+
+:is(.navbar, .burger, .dropdowns) { 
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
