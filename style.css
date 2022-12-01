@@ -62,3 +62,9 @@ body.open .burger {
 }
 
 .button > img { display: none; }
+
+@media (width => 500px) {
+    .button { padding: 0 10px 0 24px; }
+    .button > img { display: block;}
+}
+
