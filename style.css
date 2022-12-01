@@ -68,3 +68,8 @@ body.open .burger {
     .button > img { display: block;}
 }
 
+@media (width >= 500px) {
+    .dropdown:hover .button {
+        opacity: 1;
+    }
+}
