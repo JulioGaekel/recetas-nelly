@@ -47,3 +47,7 @@ button {
 body.open .burger {
     background-image: url('close.svg');
 }
+
+@media (width >= 500px) {
+    .burger { display: none; }
+}
