@@ -43,3 +43,7 @@ button {
     background-repeat: no-repeat;
     background-position: center;
 }
+
+body.open .burger {
+    background-image: url('close.svg');
+}
